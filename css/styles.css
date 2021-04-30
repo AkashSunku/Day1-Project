@@ -27,8 +27,8 @@ label{
   justify-content: center;
 
   padding: 50px 25px 60px;
-  border-radius: 10px;
-width: 30%;
+  border-radius: 20px;
+width: 40%;
 }
 .Registration-form label{
   float: left;
@@ -67,3 +67,8 @@ input{
   cursor: pointer;
   background: #cbb4d4;
 }
+@media screen and (max-width:500px) {
+    .content{
+        width: auto;
+        justify-content: center;
+    }
